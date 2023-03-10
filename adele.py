@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import os
 import asyncio
-TOKEN  = "MTA4MTExODg4OTU1MjkyNDc0Mg.GUdHb2.zI7KVQE_G4xj2-09d9Y5WHx7GLNCJsc4v-hXwA" #トークン
+TOKEN  = "" #トークン
 PREFIX = '>'       #prefix=接頭辞
 #bgmコマンドで使う再生キュー
 class AudioQueue(asyncio.Queue):
